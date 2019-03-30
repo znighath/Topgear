@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html> 
+<body> 
+        <div class="header">
+                <table>
+               <td> <img src="55238.png" alt="logo" height="60" width="100" /></td>
+               <td>  <h1>Awesome Online videos</h1></td>
+                </table>
+              </div>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div>
+<video id="myVideo" width="400" height="200">
+  <source src="mov_bbb.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+</div>
+<div>
+<button onclick="playVid()" type="button">Play Video</button>
+<button onclick="pauseVid()" type="button">Pause Video</button><br> 
+</div>
+<script> 
+var vid = document.getElementById("myVideo"); 
+
+function playVid() { 
+  vid.play(); 
+} 
+
+function pauseVid() { 
+  vid.pause(); 
+} 
+</script> 
+
+
+</body> 
+</html>
+
+</html>

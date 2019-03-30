@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Xena Events</title>
+</head>
+<body>
+
+        <div class="header">
+                <table>
+               <td> <img src="55238.png" alt="logo" height="60" width="100" /></td>
+               <td>  <h1>Xena Events</h1></td>
+                </table>
+              </div>
+<form action="Events.html">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div>
+        <datalist id="cities">
+                <option value="Vizag">
+                <option value="Bangalore">
+                <option value="Rajkot">
+                <option value="Mumbai">
+                <option value="Delhi">
+                <option value="Pune">
+                <option value="Hyderabad">
+                <option value="Kochhi">
+                <option value="Ahmedabad">
+              </datalist>
+<table border="1">
+ <tr>
+    <td>Name</td>
+    <td><input type="text" name="name" pattern="[A-Za-z]+" required title="Alphabets only"></td>
+  </tr>
+  <tr>
+    <td>Age</td>
+    <td><input type="number" name="age" min="18" required title="must be 18 or 18+"></td>
+  </tr>
+  <tr>
+        <td>EmailId</td>
+        <td><input type="email" name="email" required title="Valid Email Id"></td>
+      </tr>
+   <tr>
+        <tr>
+                <td>City</td>
+                <td><input type="text" name="City" list="cities" required title="Valid City"></td>
+              </tr>
+           <tr>
+    <td><input type="submit" value="Submit"></td>
+    <td></td>
+  </tr>
+</table>
+</div>
+</form>
+</body>
+</html>
